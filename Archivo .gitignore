@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+database/usuarios.db
+datos/datos.txt
+datos/datos.json
+datos/datos.csv
