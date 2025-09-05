@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de usuario</h1>
+    <form action="{{ url_for('guardar') }}" method="post">
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" required><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>
